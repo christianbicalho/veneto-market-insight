@@ -16,13 +16,13 @@ export const MESES_PT = [
 ];
 
 export function rotuloMes(m: string): string {
-  const [ano, mes] = m.split("-");
-  return `${MESES_PT[Number(mes) - 1]}/${ano.slice(2)}`;
+  const [ano = "", mes = "1"] = m.split("-");
+  return `${MESES_PT[Number(mes) - 1] ?? mes}/${ano.slice(2)}`;
 }
 
 export function formatarData(iso: string | null): string {
   if (!iso) return "—";
-  const [a, m, d] = iso.split("-");
+  const [a = "", m = "", d = ""] = iso.split("-");
   return `${d}/${m}/${a}`;
 }
 
@@ -93,13 +93,14 @@ export function base100(painel: Painel, anos: number, ativas: IdSerie[]): LinhaB
     comuns = comuns === null ? meses : comuns.filter((m) => mapa.has(m));
   }
   const meses = (comuns ?? []).sort();
-  if (meses.length === 0) return [];
+  const primeiro = meses[0];
+  if (primeiro === undefined) return [];
 
   const indices = new Map<IdSerie, number>();
   const bases = new Map<IdSerie, number>();
   for (const s of series) {
     indices.set(s.id, 100);
-    bases.set(s.id, mapas.get(s.id)!.get(meses[0])!);
+    bases.set(s.id, mapas.get(s.id)!.get(primeiro)!);
   }
 
   return meses.map((m, i) => {
@@ -135,8 +136,8 @@ export function leiturasExecutivas(painel: Painel): string[] {
 
   const hist = painel.cdi_vs_ipca;
   if (hist.length >= 4) {
-    const atual = hist[hist.length - 1];
-    const tres = hist[hist.length - 4];
+    const atual = hist[hist.length - 1]!;
+    const tres = hist[hist.length - 4]!;
     const delta = atual.ipca - tres.ipca;
     const direcao = delta > 0.001 ? "subiu" : delta < -0.001 ? "recuou" : "ficou estável";
     leituras.push(
