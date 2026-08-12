@@ -14,11 +14,11 @@ import { pct, recorteCdiIpca } from "@/lib/analytics";
 
 const PERIODOS = [1, 3, 5];
 
-const NOMES: Record<string, string> = {
+const NOMES = {
   cdi: "CDI 12 meses",
   ipca: "IPCA 12 meses",
   real: "Retorno real ex post",
-};
+} as const;
 
 interface TooltipPayload {
   dataKey: string;
@@ -47,7 +47,7 @@ function ConteudoTooltip({
               style={{ backgroundColor: item.color }}
               aria-hidden="true"
             />
-            <span className="text-foreground/80">{NOMES[item.dataKey]}</span>
+            <span className="text-foreground/80">{NOMES[item.dataKey as keyof typeof NOMES]}</span>
             <span className="ml-auto">{pct(item.value)}</span>
           </li>
         ))}
