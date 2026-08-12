@@ -30,3 +30,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python / ETL
+.venv/
+__pycache__/
+*.pyc
+data/raw/
