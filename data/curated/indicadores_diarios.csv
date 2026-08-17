@@ -1,5 +1,4 @@
 serie,data,valor,frequencia,unidade
-cdi,2021-08-16,0.01993,diaria,% ao dia
 cdi,2021-08-17,0.01993,diaria,% ao dia
 cdi,2021-08-18,0.01993,diaria,% ao dia
 cdi,2021-08-19,0.01993,diaria,% ao dia
@@ -1254,7 +1253,7 @@ cdi,2026-08-10,0.05166,diaria,% ao dia
 cdi,2026-08-11,0.05166,diaria,% ao dia
 cdi,2026-08-12,0.05166,diaria,% ao dia
 cdi,2026-08-13,0.05166,diaria,% ao dia
-ibovespa,2021-08-16,119180.0,diaria,pontos
+cdi,2026-08-14,0.05166,diaria,% ao dia
 ibovespa,2021-08-17,117904.0,diaria,pontos
 ibovespa,2021-08-18,116643.0,diaria,pontos
 ibovespa,2021-08-19,117165.0,diaria,pontos
@@ -2501,7 +2500,8 @@ ibovespa,2026-08-10,172180.0,diaria,pontos
 ibovespa,2026-08-11,167875.0,diaria,pontos
 ibovespa,2026-08-12,167491.0,diaria,pontos
 ibovespa,2026-08-13,167101.0,diaria,pontos
-ibovespa,2026-08-14,166934.203125,diaria,pontos
+ibovespa,2026-08-14,166934.0,diaria,pontos
+ibovespa,2026-08-17,166783.5625,diaria,pontos
 ipca,2021-09-01,1.16,mensal,% no mês
 ipca,2021-10-01,1.25,mensal,% no mês
 ipca,2021-11-01,0.95,mensal,% no mês
@@ -2561,7 +2561,6 @@ ipca,2026-04-01,0.67,mensal,% no mês
 ipca,2026-05-01,0.58,mensal,% no mês
 ipca,2026-06-01,0.16,mensal,% no mês
 ipca,2026-07-01,0.07,mensal,% no mês
-usdbrl,2021-08-16,5.2495,diaria,R$/US$
 usdbrl,2021-08-17,5.2585,diaria,R$/US$
 usdbrl,2021-08-18,5.3025,diaria,R$/US$
 usdbrl,2021-08-19,5.418,diaria,R$/US$
@@ -3817,3 +3816,4 @@ usdbrl,2026-08-11,5.1285,diaria,R$/US$
 usdbrl,2026-08-12,5.1639,diaria,R$/US$
 usdbrl,2026-08-13,5.1859,diaria,R$/US$
 usdbrl,2026-08-14,5.2236,diaria,R$/US$
+usdbrl,2026-08-17,5.2014,diaria,R$/US$
