@@ -1253,6 +1253,7 @@ cdi,2026-08-25,0.05166,diaria,% ao dia
 cdi,2026-08-26,0.05166,diaria,% ao dia
 cdi,2026-08-27,0.05166,diaria,% ao dia
 cdi,2026-08-28,0.05166,diaria,% ao dia
+cdi,2026-08-31,0.05166,diaria,% ao dia
 ibovespa,2021-09-01,119396.0,diaria,pontos
 ibovespa,2021-09-02,116677.0,diaria,pontos
 ibovespa,2021-09-03,116933.0,diaria,pontos
@@ -2499,7 +2500,8 @@ ibovespa,2026-08-25,174577.0,diaria,pontos
 ibovespa,2026-08-26,174586.0,diaria,pontos
 ibovespa,2026-08-27,175135.0,diaria,pontos
 ibovespa,2026-08-28,175665.0,diaria,pontos
-ibovespa,2026-08-31,177418.78125,diaria,pontos
+ibovespa,2026-08-31,177419.0,diaria,pontos
+ibovespa,2026-09-01,179722.484375,diaria,pontos
 ipca,2021-09-01,1.16,mensal,% no mês
 ipca,2021-10-01,1.25,mensal,% no mês
 ipca,2021-11-01,0.95,mensal,% no mês
@@ -3814,3 +3816,4 @@ usdbrl,2026-08-26,5.1604,diaria,R$/US$
 usdbrl,2026-08-27,5.1642,diaria,R$/US$
 usdbrl,2026-08-28,5.2005,diaria,R$/US$
 usdbrl,2026-08-31,5.1816,diaria,R$/US$
+usdbrl,2026-09-01,5.157,diaria,R$/US$
