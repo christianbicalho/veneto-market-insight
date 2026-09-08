@@ -2501,6 +2501,7 @@ ibovespa,2026-09-01,179723.0,diaria,pontos
 ibovespa,2026-09-02,185205.0,diaria,pontos
 ibovespa,2026-09-03,185188.0,diaria,pontos
 ibovespa,2026-09-04,185147.0,diaria,pontos
+ibovespa,2026-09-08,187366.84375,diaria,pontos
 ipca,2021-10-01,1.25,mensal,% no mês
 ipca,2021-11-01,0.95,mensal,% no mês
 ipca,2021-12-01,0.73,mensal,% no mês
@@ -3814,3 +3815,4 @@ usdbrl,2026-09-01,5.157,diaria,R$/US$
 usdbrl,2026-09-02,5.1273,diaria,R$/US$
 usdbrl,2026-09-03,5.0962,diaria,R$/US$
 usdbrl,2026-09-04,5.1253,diaria,R$/US$
+usdbrl,2026-09-08,5.0856,diaria,R$/US$
