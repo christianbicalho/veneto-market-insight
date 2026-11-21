@@ -1254,6 +1254,7 @@ cdi,2026-11-13,0.050788,diaria,% ao dia
 cdi,2026-11-16,0.050788,diaria,% ao dia
 cdi,2026-11-17,0.050788,diaria,% ao dia
 cdi,2026-11-18,0.050788,diaria,% ao dia
+cdi,2026-11-19,0.050788,diaria,% ao dia
 ibovespa,2021-11-22,102122.0,diaria,pontos
 ibovespa,2021-11-23,103663.0,diaria,pontos
 ibovespa,2021-11-24,104514.0,diaria,pontos
@@ -2501,7 +2502,7 @@ ibovespa,2026-11-13,172458.0,diaria,pontos
 ibovespa,2026-11-16,169295.0,diaria,pontos
 ibovespa,2026-11-17,169817.0,diaria,pontos
 ibovespa,2026-11-18,167538.0,diaria,pontos
-ibovespa,2026-11-19,166376.4375,diaria,pontos
+ibovespa,2026-11-19,166376.0,diaria,pontos
 ipca,2021-12-01,0.73,mensal,% no mês
 ipca,2022-01-01,0.54,mensal,% no mês
 ipca,2022-02-01,1.01,mensal,% no mês
